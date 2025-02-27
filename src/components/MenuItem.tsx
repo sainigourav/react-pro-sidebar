@@ -164,6 +164,7 @@ export const MenuItemFR: React.ForwardRefRenderFunction<HTMLLIElement, MenuItemP
         data-testid={`${menuClasses.button}-test-id`}
         component={component}
         tabIndex={0}
+        role="button"
         {...rest}
       >
         {icon && (

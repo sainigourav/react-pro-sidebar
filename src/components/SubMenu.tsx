@@ -358,6 +358,7 @@ export const SubMenuFR: React.ForwardRefRenderFunction<HTMLLIElement, SubMenuPro
         onKeyUp={handleOnKeyUp}
         component={component}
         tabIndex={0}
+        role={"button"}
         {...rest}
       >
         {icon && (
